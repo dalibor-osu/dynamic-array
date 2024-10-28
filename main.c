@@ -37,5 +37,8 @@ int main (void) {
     }
     print_int_array(intArray);
 
+    free(intArray->array);
+    free(intArray);
+
     return 0;
 }
